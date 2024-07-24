@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alata&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="header_container">
+        <div class="header_structure">
+          <!-- Mobile -->
+          <nav class="mobile_container" id="mobile_container">
+            <div class="function_div">
+              <div class="logo_div">
+                <img src="images/logo.svg" />
+              </div>
+              <!-- Close icon -->
+              <button onclick="showSideBar()" id="x">
+                <img src="images/icon-close.svg" />
+              </button>
+            </div>
+            <ul class="moblist_items">
+              <li><a href="#">About</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Events</a></li>
+              <li><a href="#">Products</a></li>
+              <li><a href="#">Support</a></li>
+            </ul>
+          </nav>
+          <!-- Desktop -->
+          <nav class="desk_container">
+            <div class="logo_div">
+              <img src="images/logo.svg" />
+            </div>
+            <div class="desk_div2">
+              <ul class="desklist_items hideOnMobile">
+                <li><a href="#">About</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Events</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Support</a></li>
+              </ul>
+              <!-- Hamburger -->
+              <button
+                onclick="showSideBar()"
+                class="hideOnDesktop"
+                id="hamburger"
+              >
+                <img src="images/icon-hamburger.svg" />
+              </button>
+            </div>
+          </nav>
+          <div class="Immersive_div">
+            <!-- <h2 class="h2_style">Immersive experiences that deliver</h2> -->
+            <h2 class="h2_style">
+              Immersive <span>experiences</span> <span> that deliver</span>
+            </h2>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Section -->
+    <section>
+      <!-- Section 1 -->
+      <div class="section1_container">
+        <div class="interactive_img">
+          <img
+            class="hideOnDesktop"
+            src="images/mobile/image-interactive.jpg"
+          />
+          <img
+            class="hideOnMobile"
+            src="images/desktop/image-interactive.jpg"
+          />
+        </div>
+        <div class="interactive_textcon">
+          <h3 class="h3_style">The leader in interactive vr</h3>
+          <p class="p_style">
+            founded in 2011, loopstudios has been producing worls_class virtual
+            reality projects for some of the best companies around the globe.
+            Our award-winning creations have transformed businesses through
+            digital experiences that bind to their brand.
+          </p>
+        </div>
+      </div>
+      <!-- Section 2-->
+      <div class="section2_container">
+        <div class="creations_div">
+          <h3 class="h3_style">Our creations</h3>
+          <button class="section_button hideOnMobile">Sell all</button>
+        </div>
+        <div class="section2_img_container">
+          <div class="img_pdiv">
+            <img
+              class="hideOnDesktop"
+              src="images/mobile/image-deep-earth.jpg"
+            />
+            <img
+              class="hideOnMobile"
+              src="images/desktop/image-deep-earth.jpg"
+            />
+            <h1 class="text-content">
+              Deep<span class="span_style">Earth</span>
+            </h1>
+          </div>
+          <div class="img_pdiv">
+            <img
+              class="hideOnDesktop"
+              src="images/mobile/image-night-arcade.jpg"
+            />
+            <img
+              class="hideOnMobile"
+              src="images/desktop/image-night-arcade.jpg"
+            />
+            <h1 class="text-content">
+              Night<span class="span_style">Arcade</span>
+            </h1>
+          </div>
+          <div class="img_pdiv">
+            <img
+              class="hideOnDesktop"
+              src="images/mobile/image-soccer-team.jpg"
+            />
+            <img
+              class="hideOnMobile"
+              src="images/desktop/image-soccer-team.jpg"
+            />
+            <h1 class="text-content">
+              Soccer<span class="span_style">Team Vr</span>
+            </h1>
+          </div>
+          <div class="img_pdiv">
+            <img class="hideOnDesktop" src="images/mobile/image-grid.jpg" />
+            <img class="hideOnMobile" src="images/desktop/image-grid.jpg" />
+            <h1 class="text-content">
+              The<span class="span_style">Grid</span>
+            </h1>
+          </div>
+          <div class="img_pdiv">
+            <img
+              class="hideOnDesktop"
+              src="images/mobile/image-from-above.jpg"
+            />
+            <img
+              class="hideOnMobile"
+              src="images/desktop/image-from-above.jpg"
+            />
+            <h1 class="text-content">
+              From up<span class="span_style">Above VR</span>
+            </h1>
+          </div>
+          <div class="img_pdiv">
+            <img
+              class="hideOnDesktop"
+              src="images/mobile/image-pocket-borealis.jpg"
+            />
+            <img
+              class="hideOnMobile"
+              src="images/desktop/image-pocket-borealis.jpg"
+            />
+            <h1 class="text-content">
+              Pocket<span class="span_style">Borealis</span>
+            </h1>
+          </div>
+          <div class="img_pdiv">
+            <img
+              class="hideOnDesktop"
+              src="images/mobile/image-curiosity.jpg"
+            />
+            <img
+              class="hideOnMobile"
+              src="images/desktop/image-curiosity.jpg"
+            />
+            <h1 class="text-content">
+              The<span class="span_style">curiosity</span>
+            </h1>
+          </div>
+          <div class="img_pdiv">
+            <img class="hideOnDesktop" src="images/mobile/image-fisheye.jpg" />
+            <img class="hideOnMobile" src="images/desktop/image-fisheye.jpg" />
+            <h1 class="text-content">
+              Make it<span class="span_style">Fisheye</span>
+            </h1>
+          </div>
+        </div>
+        <button class="section_button hideOnDesktop">Sell all</button>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer>
+      <div class="footer_container">
+        <div class="footer_structure">
+          <div class="footer_div1">
+            <div>
+              <img src="images/logo.svg" />
+            </div>
+            <ul class="footer_listitems">
+              <li>
+                <a href="#">About</a>
+              </li>
+              <li>
+                <a href="#">Careers</a>
+              </li>
+              <li>
+                <a href="#">Events</a>
+              </li>
+              <li>
+                <a href="#">Products</a>
+              </li>
+              <li>
+                <a href="#">Support</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer_div2">
+            <div class="footer_div2_icons">
+              <img src="images/icon-facebook.svg" alt="" />
+              <img src="images/icon-twitter.svg" alt="" />
+              <img src="images/icon-pinterest.svg" alt="" />
+              <img src="images/icon-instagram.svg" alt="" />
+            </div>
+            <p class="p_footer">
+              &copy; 2024 Loopstudios. All rights reserved.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
